@@ -3,7 +3,7 @@ pipeline {
     	label 'homelab'
     }
     environment {
-        BUCKET = 'www.noahing.com'
+        BUCKET = 'noahing-com'
     }
     stages {
         stage('Activate Service Account') {
